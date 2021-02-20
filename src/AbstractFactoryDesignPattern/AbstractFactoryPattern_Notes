@@ -1,0 +1,7 @@
+>> Abstract factory pattern falls under creational design pattern.
+
+>> Abstract Factory patterns work around a super-factory which creates other factories.
+This factory is also called as factory of factories.  So at runtime, abstract factory is
+coupled with any desired concrete factory which can create objects of desired type.
+
+>> When to use - create a set of related objects or dependent objects which must be used together.

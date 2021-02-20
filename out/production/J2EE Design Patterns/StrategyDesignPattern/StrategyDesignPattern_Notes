@@ -1,0 +1,14 @@
+>> Strategy design pattern falls under the category of behavioural design pattern.
+
+>> Strategy design pattern is used when we have multiple algorithm for a specific task and
+client decides actual implementation to be used at runtime.
+
+>> Strategy pattern attempts to solve the issue where we need to provide multiple solutions for the same
+problem so that one can be selected at runtime.
+
+>> In real time example, the distance from Steve's house to airport is 200 kms.There are four transportation
+option to go to airport from Steve's house.Steve can use any one option from bus, taxi, train and auto to go airport
+based on cost, convenience and time.
+
+>> In the implementation area, context component is composed of strategies and could be anything that would
+require changing behaviours.Here, client could tell the context which strategy it would like to use.

@@ -1,0 +1,8 @@
+>> Iterator pattern is a behavioural design pattern in which an iterator is used to iterate over
+object in sequential manner without any need to know the implementation of its underlying data structure.
+
+>> For example, we have different types of collections in our application such as array list, linked list etc.
+For which ever type of collection we have we will need to traverse or iterate through the items in the collection.
+The actual implementation of how to traverse different type of collections will be different, yet the client code
+should not be concerned about the details of the implementations.The iterator pattern helps us to hide such details
+and provide a generic interface for the client to traverse different types of collections.
